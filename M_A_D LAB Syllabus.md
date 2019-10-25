@@ -2,13 +2,8 @@
 
 | Internal Marks: 30 | L    | T    | P    |
 | ------------------ | ---- | ---- | ---- |
-|                    |      |      |      |
 | External Marks: 20 | 0    | 0    | 2    |
-| ------------------ | ---- | ---- | ---- |
-|                    |      |      |      |
-| Total Marks: | 50   |
-| ------------ | ---- |
-|              |      |
+| Total Marks: | 50   |||
 
 Prerequisites: Web Technologies
 

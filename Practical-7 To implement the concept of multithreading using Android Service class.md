@@ -1,4 +1,7 @@
+**Practical-7 To implement the concept of multithreading using Android Service class**
+
 **Introduction:**
+
 Multi-threading is defined as a feature through which we can run two or more concurrent threads of a process. In this a process, the common data is shared *among* all these threads also known as sub-processes exclusively. In android there are many ways through which multi-threading can be established in the application.
 
    Objective:

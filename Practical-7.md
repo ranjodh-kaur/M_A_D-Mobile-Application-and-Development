@@ -20,10 +20,10 @@ Handler class come from the Package android.os.Handler package and is most commo
 
 Runnable interface is used in multi-threading to be called in a loop when the thread starts. It is a type of thread that executes the statement in its body or calls other methods for a specified or infinite number of times.This runable interface is used by the Handler class to execute the multi-threading, i.e., to execute one or more thread in specified time.Runnable is an interface which is implemented by the class desired to support multithreading and that class must implements it’s abstract method public void run().Run() method is the core of multithreading as it includes the statement or calls to other methods that the thread needs to be made for multithreading.
 
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+ ![img](https://github.com/9803794468/M_A_D/blob/master/prabh1.jpg)
 
  Runnable interface can also be used by using adapter class as explained below:
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+ ![img](https://github.com/9803794468/M_A_D/blob/master/prabh2.jpg)
 
  
 
@@ -36,17 +36,13 @@ Make a new android project Multi-Threading in Eclipse and create a package named
 **Step 2:**
 Listing 1: Create an XML file main.xml if not already created in layout folder and paste the following code:
 
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+ ![img](https://github.com/9803794468/M_A_D/blob/master/prabh3.jpg)![img](https://github.com/9803794468/M_A_D/blob/master/prabh4.jpg)
 
 **Step 3:**
 Listing 2: Make a Java file named MultiThreadingActivity if not already created in com.nkm.thread package and paste the following code:
 
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
+ ![img](https://github.com/9803794468/M_A_D/blob/master/prabh5.jpg)![img](https://github.com/9803794468/M_A_D/blob/master/prabh6.jpg)
 
  So, on the whole it creates a thread that executes in a loop until certain condition met.
 
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png)   ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png)   ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png)
-    
-
- ![img](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)
+ ![img](https://github.com/9803794468/M_A_D/blob/master/prabh7.png)  

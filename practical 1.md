@@ -1,6 +1,5 @@
-PRACTICAL:1 
-
-To study design aspects of development environment like Android, iOS.
+**PRACTICAL:1 
+To study design aspects of development environment like Android, iOS.**
 
 ANDROID STUDIO
 
@@ -217,27 +216,3 @@ a title to describe the task;
 a button to close the modal without saving or performing any other actions;
 
 a button to save or submit any entered information
-
-​        
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 

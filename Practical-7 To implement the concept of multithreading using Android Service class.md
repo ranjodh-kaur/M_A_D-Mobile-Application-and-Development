@@ -19,7 +19,7 @@ Multi-Threading in Android is a unique feature through which more than one threa
 
 Handler class come from the Package _android.os.Handler_ package and is most commonly used for multi-threading in android. Handler class provide sending and receiving feature for messages between different threads and handle the thread execution which is associated with that instance of Handler class. In android class, every thread is associated with an instance of Handler class and it allows the thread to run along with other threads and communicate with them through messages.
 
-**Runnable Interface: **
+**Runnable Interface:**
 
 Runnable interface is used in multi-threading to be called in a loop when the thread starts. It is a type of thread that executes the statement in its body or calls other methods for a specified or infinite number of times. This runnable interface is used by the Handler class to execute the multi-threading i.e to execute one or more thread in specified time. Runnable is an interface which is implemented by the class desired to support multithreading and that class must implements it’s abstract method public void run().Run() method is the core of multithreading as it includes the statement or calls to other methods that the thread needs to be made for multithreading.
 

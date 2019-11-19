@@ -6,7 +6,7 @@ ANDROID STUDIO
 
 Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the *Open Handset Alliance*, led by Google, and other companies. 
 
-![Screenshot of the Android Stuido app, displaying a new project's source code.](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![Screenshot of the Android Stuido app, displaying a new project's source code.](https://github.com/bhav1/M_A_D/blob/master/bhav1.jpg)
 
 ANDROID STUDIO
 
@@ -144,7 +144,7 @@ IOS
 
 IOS is a mobile operating system for Apple-manufactured devices. iOS runs on the iPhone, iPad, iPod Touch and Apple TV.IOS is best known for serving as the underlying software that allows iPhone users to interact with their phones using gestures such as swiping, tapping and pinching. These finger actions are typically performed on multitouch capacitive touch screen displays, which provide fast response and accept inputs from multiple fingers.
 
-![Related image](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif)
+![Related image](https://github.com/bhav1/M_A_D/blob/master/bhav2.jpg)
 
 The iPhone X safe area
 
@@ -172,7 +172,7 @@ There are various keyboard types available to provide the best possible keyboard
 
  
 
-Grid system![https://ivomynttinen.com/content/3-blog/20150928-ios-design-guidelines/app-icon-grid.jpg](file:///C:/Users/Prabhudeep%20Singh/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+Grid system![https://ivomynttinen.com/content/3-blog/20150928-ios-design-guidelines/app-icon-grid.jpg](https://github.com/bhav1/M_A_D/blob/master/bhav3.jpg)
 
 Apple developed a golden ratio grid system that can be used to size and align elements on your icon correctly. Nevertheless, even Apple designers are not following the grid system very strictly with the native apps’ icons. Feel free to break the rules if your icon simply works better without aligning all elements strictly to the grid.
 

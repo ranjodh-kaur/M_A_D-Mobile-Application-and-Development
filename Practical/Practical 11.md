@@ -1,9 +1,9 @@
-Practical 11: Develop an application for working with menus and screen navigation.
+# Practical 11: Develop an application for working with menus and screen navigation.
 
-main_menu.xml
+## Main_Menu.xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <?xml version="1.0" encoding="utf-8"?>
+      <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/item1"
         android:title="FYCS" />
@@ -13,33 +13,36 @@ main_menu.xml
     <item
         android:id="@+id/item3"
         android:title="TYCS" />
-</menu>
-
-MainActivity.java
-
-package com.example.myapplication;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.content.Intent;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-//import ty.practical5.R;
+    </menu>
 
 
-public class MainActivity extends AppCompatActivity {
+## MainActivity.java
+    package com.example.myapplication;
+
+    import androidx.appcompat.app.AppCompatActivity;
+
+    import android.os.Bundle;
+    import android.content.Intent;
+    import android.view.Menu;
+    import android.view.MenuInflater;
+    import android.view.MenuItem;
+
+
+
+    public class MainActivity extends AppCompatActivity 
+    {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) 
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) 
+    {
         //return super.onCreateOptionsMenu(menu);
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
@@ -47,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) 
+    {
         switch(item.getItemId())
         {
             case R.id.item1:
@@ -63,6 +67,12 @@ public class MainActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-}
+    }
 
-OUTPUT
+## Output 
+
+<p align="center">
+    
+<img src="https://github.com/rsshivani/M_A_D/blob/master/screen.png?raw=true"  height="400"/>
+</p>   
+

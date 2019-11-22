@@ -535,4 +535,4 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Output:
 
-![Capture](C:\Users\ravir\Desktop\Capture.PNG)
+![Capture](https://github.com/ashishoo7/M_A_D/blob/master/Capture.PNG)

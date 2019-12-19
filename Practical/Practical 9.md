@@ -82,7 +82,8 @@ Otherwise, it can be accessed from the command line and will automatically conne
 
 ![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.5.jpg)
 
-	DDMS is deprecated. Its features have been replaced by other new features. Instead of this, we use Android 
-  Profiler in Android Studio 3.0 and higher to profile your app's CPU, memory, and network usage. To perform other
-  debugging tasks, such as sending commands to a connected device to set up port-forwarding, transfer files, or 
-  take screenshots, then use the Android Debug Bridge (adb), Android Emulator, Device File Explorer, or Debugger window.
+	DDMS is deprecated. Its features have been replaced by other new features.
+	Instead of this, we use Android Profiler in Android Studio 3.0 and higher to profile
+	your app's CPU, memory, and network usage. To perform other debugging tasks, such as sending 
+	commands to a connected device to set up port-forwarding, transfer files, or take screenshots, 
+	then use the Android Debug Bridge (adb), Android Emulator, Device File Explorer, or Debugger window.

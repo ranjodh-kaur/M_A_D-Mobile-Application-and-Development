@@ -11,6 +11,7 @@ Bugs can result for many reasons:
     • Android framework limitations (or bugs)
     • Missing requirements or assumptions for how the app should work
     • Device limitations (or bugs)
+    
 Use the debugging, testing, and profiling capabilities in Android Studio to help us reproduce, find, 
 and resolve all of these problems. Those capabilities include:
 
@@ -33,18 +34,22 @@ Here is a listing of the message types, and their respective method calls, order
     “What a Terrible Failure”, of course). We can think of this method as the equivalent of Java’s assert method.
 
 ![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.1.jpg)
+
 Android Debug Bridge:
+
 Android Debug Bridge (adb) is a versatile command-line tool that lets us communicate with a device.
 ADB is a part of Android SDK The adb command facilitates a variety of device actions, such as installing 
 and debugging apps, and it provides access to a Unix shell that we can use to run a variety of commands on a device.
 It is a client-server program that includes three components:
 
     • A client, which sends commands. The client runs on development machine. We can invoke a client from a 
-    command-line terminal by issuing an adb command.
+      command-line terminal by issuing an adb command.
     • A daemon (adbd), which runs commands on a device. The daemon runs as a background process on each device.
     • A server, which manages communication between the client and the daemon. The server runs as a background
     process on your development machine.
+    
 Enable adb debugging:
+
 We have to use USB debugging under Developer Options for using adb with a device. 
 We can now connect our device with USB. We can verify that our device is connected by executing adb devices from 
 the android_sdk/platform-tools/ directory.

@@ -6,6 +6,7 @@ All code has bugs, from incorrect behaviour in our app, to behaviour that excess
 to actual app freezing or crashing.
 
 Bugs can result for many reasons:
+
     • Errors in design or implementation
     • Android framework limitations (or bugs)
     • Missing requirements or assumptions for how the app should work

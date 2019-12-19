@@ -30,8 +30,9 @@ Here is a listing of the message types, and their respective method calls, order
     • The Log.i() method is used to log informational messages.
     • The Log.w() method is used to log warnings.
     • The Log.e() method is used to log errors.
-    • The Log.wtf() method is used to log events that should never happen (“wtf” being an abbreviation for 
-    “What a Terrible Failure”, of course). We can think of this method as the equivalent of Java’s assert method.
+    • The Log.wtf() method is used to log events that should never happen 
+    (“wtf” being an abbreviation for “What a Terrible Failure”, of course). 
+    We can think of this method as the equivalent of Java’s assert method.
 
 ![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.1.jpg)
 
@@ -48,7 +49,7 @@ It is a client-server program that includes three components:
     • A server, which manages communication between the client and the daemon. The server runs as a background
     process on your development machine.
     
-Enable adb debugging:
+## Enable adb debugging:
 
 We have to use USB debugging under Developer Options for using adb with a device. 
 We can now connect our device with USB. We can verify that our device is connected by executing adb devices from 
@@ -57,10 +58,10 @@ the android_sdk/platform-tools/ directory.
 ## Setup Android SDK
 ![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.2.jpg)
 
-Enable USB debugging:
+## Enable USB debugging:
 ![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.3.jpg)
 
-Test ADB connection: 
+## Test ADB connection: 
 adb devices
 
 ![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.4.jpg)

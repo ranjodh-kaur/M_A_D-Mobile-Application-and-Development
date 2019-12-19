@@ -29,7 +29,7 @@ Here is a listing of the message types, and their respective method calls, order
     • The Log.wtf() method is used to log events that should never happen (“wtf” being an abbreviation for 
     “What a Terrible Failure”, of course). We can think of this method as the equivalent of Java’s assert method.
 
-
+![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.1.jpg)
 Android Debug Bridge:
 Android Debug Bridge (adb) is a versatile command-line tool that lets us communicate with a device.
 ADB is a part of Android SDK The adb command facilitates a variety of device actions, such as installing 
@@ -44,13 +44,14 @@ Enable adb debugging:
 We have to use USB debugging under Developer Options for using adb with a device. 
 We can now connect our device with USB. We can verify that our device is connected by executing adb devices from 
 the android_sdk/platform-tools/ directory.
-Setup Android SDK
+## Setup Android SDK
+![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.2.jpg)
 
 Enable USB debugging:
-
+![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.3.jpg)
 Test ADB connection: 
 adb devices
-
+![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.4.jpg)
 
 	Now, we can run ADB commands to use the tool in console for both Debugging and Testing of the application. 
   Further details and guide to the ADB can be seen here.
@@ -65,7 +66,7 @@ For example, it can simulate different types of networks which can have differen
 such as speed and latency. 
 This debugging tool can be integrated into the Eclipse IDE by adding the ADT (Android Development Tools) plug-in. 
 Otherwise, it can be accessed from the command line and will automatically connect to any running emulator.
-
+![](https://raw.githubusercontent.com/ranjodh-kaur/M_A_D/master/9.5.jpg)
 	DDMS is deprecated. Its features have been replaced by other new features. Instead of this, we use Android 
   Profiler in Android Studio 3.0 and higher to profile your app's CPU, memory, and network usage. To perform other
   debugging tasks, such as sending commands to a connected device to set up port-forwarding, transfer files, or 

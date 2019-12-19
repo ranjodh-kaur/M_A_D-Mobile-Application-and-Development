@@ -9,7 +9,8 @@
     tools:context="ty.practical6.MainActivity">
     <Button android:id="@+id/btnSendEmail" android:layout_width="wrap_content" 
     android:layout_height="wrap_content"           
-    android:layout_marginTop="92dp" android:onClick="sendEmail" android:text="Compose Email"                                     android:layout_alignTop="@+id/txtMessage" android:layout_centerHorizontal="true" />
+    android:layout_marginTop="92dp" android:onClick="sendEmail" android:text="Compose Email
+    android:layout_alignTop="@+id/txtMessage" android:layout_centerHorizontal="true" />
      <EditText android:id="@+id/txtMessage" android:layout_width="wrap_content"
      android:layout_height="wrap_content" android:ems="10" android:hint="Message" 
      android:inputType="textMultiLine" android:singleLine="true"                         

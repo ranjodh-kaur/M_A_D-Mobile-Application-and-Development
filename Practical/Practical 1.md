@@ -68,13 +68,13 @@ Styling components in Android is a highly declarative process. There isn’t a r
 
 <style name="InputLabel" parent="Label">
 
- <item name="android:fontFamily">`@font/lato_bold`</item>
+ <item name="android:fontFamily">@font/lato_bold</item>
 
-<item name="android:textColor"> @color/sunset`</item>
+<item name="android:textColor"> @color/sunset</item>
 
-<item name="android:textAllCaps">`true`</item>
+<item name="android:textAllCaps">true</item>
 
-<item name="android:textSize">`18sp`</item>
+<item name="android:textSize">18sp</item>
 
 </style>
 

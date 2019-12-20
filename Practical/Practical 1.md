@@ -1,5 +1,6 @@
-**PRACTICAL:1 
-To study design aspects of development environment like Android, iOS.**
+**PRACTICAL:1 **
+
+**To study design aspects of development environment like Android, iOS.**
 
 _ANDROID STUDIO_
 
@@ -15,9 +16,9 @@ To start coding an Android App, you need an Android development environment. And
 
 Much like Sass variables or CSS Custom Properties, you’re going to want to abstract as much of your code as possible. Regardless of coding language or medium, this kind of practice helps keep your code consistent, flexible, and easy to maintain.
 
-In Android, `colors.xml` is used to specify all your app’s color values. For example, a color called sunset would described like this: `#FA5A41`.
+In Android, colors.xml is used to specify all your app’s color values. For example, a color called sunset would described like this: #FA5A41.
 
-After turning their palette into something Android-friendly, we can now use it in the various pieces that make up the app. Access the contents of `colors.xml` by first typing `@color/`, then the color’s name:
+After turning their palette into something Android-friendly, we can now use it in the various pieces that make up the app. Access the contents of _colors.xml_ by first typing _@color/_, then the color’s name:
 
 <View>
 
@@ -31,16 +32,16 @@ android:background="@color/grayLight"
 
 **dimens.xml**
 
-We want to abstract our measurements, much like with our color values. In Android, `dimens.xml` is where we place that code.
+We want to abstract our measurements, much like with our color values. In Android, _dimens.xml_ is where we place that code.
 
 Density-independent pixels
 
-Android has a unit called density-independent pixels (`dp`). It’s a technical solution that plays to the strengths of their many devices having different display sizes and densities. Unlike declaring a regular static pixel value, a device pixel declaration tells the Android operating system to draw the pixels making up a UI proportionately based on a device’s reported display properties.
+Android has a unit called density-independent pixels (_dp_). It’s a technical solution that plays to the strengths of their many devices having different display sizes and densities. Unlike declaring a regular static pixel value, a device pixel declaration tells the Android operating system to draw the pixels making up a UI proportionately based on a device’s reported display properties.
 
 
 **Scale-independent pixels**
 
-Scale-independent pixels (`sp`) are much like density-independent pixels, only they are used for type. The main difference is that they scale along with a user’s font size preference. This is great for helping to make your app accessible for those who benefit from a larger type size.
+Scale-independent pixels (_sp_) are much like density-independent pixels, only they are used for type. The main difference is that they scale along with a user’s font size preference. This is great for helping to make your app accessible for those who benefit from a larger type size.
 
 **Abstraction**
 
@@ -77,20 +78,20 @@ Styling components in Android is a highly declarative process. There isn’t a r
 
 </style>
 
-This collection of styling instructions can then be via a declaration of `style`:
+This collection of styling instructions can then be via a declaration of _style_:
 
 <TextView
 android:id="@+id/labelName"
 android:layout_marginTop="@dimen/spacing_small"
 style="@style/InputLabel"
-<!--` `Other` `view` `code` `-->
+<!--Other view code-->
 />
 
 **strings.xml**
 
 strings.xml is used to contain the content of your app. If you’re picking up on a pattern here, it’s that this is yet another centralizing file that controls things. Strings are declared in a fashion similar to colors and measurement: Login as an admin.
 
-They are declared by typing `android:text=""`, then `@string/` inside the double quotes, then the string’s name:
+They are declared by typing _android:text=""_, then _@string/_ inside the double quotes, then the string’s name:
 
 <Button
 
@@ -102,7 +103,7 @@ android:text="@string/login_as_admin"
 
 style="@style/ButtonPrimary
 
-<!--` `Other` `view` `code` `-->
+<!--Other view code -->
 
 />
 

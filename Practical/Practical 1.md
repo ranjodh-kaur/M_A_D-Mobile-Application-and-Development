@@ -5,7 +5,7 @@ _ANDROID STUDIO_
 
 Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the *Open Handset Alliance*, led by Google, and other companies. 
 
-![Screenshot of the Android Stuido app, displaying a new project's source code.](https://github.com/bhav1/M_A_D/blob/master/bhav1.jpg)
+![Screenshot of the Android Stuido app, displaying a new projects source code.](https://github.com/bhav1/M_A_D/blob/master/bhav1.jpg)
 
 **ANDROID STUDIO**
 
@@ -21,15 +21,13 @@ After turning their palette into something Android-friendly, we can now use it i
 
 <View>
 
-` `android:id="@+id/background"``
+ android:id="@+id/background"
 
-` `android:background="@color/grayLight"``
+android:background="@color/grayLight"
 
-` `<!--` `Other` `view` `code` `-->``
+<!-- Other  view  code -->
 
-```
 />
-```
 
 **dimens.xml**
 
@@ -58,7 +56,6 @@ The client’s design system used a suite of standardized spacing values (10px, 
 
 <dimen name="spacing_medium">12dp</dimen>
 
-**
 
 **Start from the top**
 
@@ -70,49 +67,44 @@ Styling components in Android is a highly declarative process. There isn’t a r
 
 <style name="InputLabel" parent="Label">
 
-` `<item` `name="android:fontFamily">`@font/lato_bold`</item>``
+ <item name="android:fontFamily">`@font/lato_bold`</item>
 
-` `<item` `name="android:textColor">`@color/sunset`</item>``
+<item name="android:textColor"> @color/sunset`</item>
 
-` `<item` `name="android:textAllCaps">`true`</item>``
+<item name="android:textAllCaps">`true`</item>
 
-` `<item` `name="android:textSize">`18sp`</item>``
+<item name="android:textSize">`18sp`</item>
 
-</style>``
+</style>
 
 This collection of styling instructions can then be via a declaration of `style`:
 
-<TextView``
-
-` `android:id="@+id/labelName"``
-
-` `android:layout_marginTop="@dimen/spacing_small"``
-
-` `style="@style/InputLabel"``
-
-` `<!--` `Other` `view` `code` `-->``
-
-`/>`
+<TextView
+android:id="@+id/labelName"
+android:layout_marginTop="@dimen/spacing_small"
+style="@style/InputLabel"
+<!--` `Other` `view` `code` `-->
+/>
 
 **strings.xml**
 
-`strings.xml` is used to contain the content of your app. If you’re picking up on a pattern here, it’s that this is yet another centralizing file that controls things. Strings are declared in a fashion similar to colors and measurement: `Login as an admin`.
+strings.xml is used to contain the content of your app. If you’re picking up on a pattern here, it’s that this is yet another centralizing file that controls things. Strings are declared in a fashion similar to colors and measurement: Login as an admin.
 
 They are declared by typing `android:text=""`, then `@string/` inside the double quotes, then the string’s name:
 
-<Button``
+<Button
 
-` `android:id="@+id/button_login_as_admin"``
+android:id="@+id/button_login_as_admin"
 
-` `android:layout_marginTop="@dimen/spacing_largest"``
+android:layout_marginTop="@dimen/spacing_largest"
 
-` `android:text="@string/login_as_admin"``
+android:text="@string/login_as_admin"
 
-` `style="@style/ButtonPrimary"``
+style="@style/ButtonPrimary
 
-` `<!--` `Other` `view` `code` `-->``
+<!--` `Other` `view` `code` `-->
 
-`/>`
+/>
 
 **Commenting and prefixing**
 
@@ -204,7 +196,7 @@ The purpose of alerts is to inform the user about critical information and optio
 
 An alert view does always contain a title text, which should not be longer than one line and one (for pure informational alerts, e.g., „OK“) or two (for alerts that require a decision, e.g., „Send“ and „Cancel“) buttons.
 
-**Modals
+**Modals**
 
 Modals are a useful view for tasks that require multiple commands or inputs by the user. They appear on top of everything else, and, while open, block interaction with any other interactive elements underneath.
 

@@ -41,6 +41,7 @@ Once “Finish” is clicked, it will ask whether the previous settings needs to
 It is better to choose the ‘Don’t import Settings option’ .
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as5-1.png)
+
 Click the OK button.
 
 **Step – 6 :**
@@ -74,9 +75,11 @@ Click on the Next button
 Now it is time to download the SDK components .
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as11.png)
+
 Click on Finish .
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as12.png)
+
 It has started downloading the components
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as13.png)

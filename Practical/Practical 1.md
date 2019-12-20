@@ -1,4 +1,4 @@
-**PRACTICAL:1 **
+**PRACTICAL:1**
 
 **To study design aspects of development environment like Android, iOS.**
 

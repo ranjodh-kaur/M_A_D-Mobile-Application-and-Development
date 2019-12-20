@@ -45,7 +45,9 @@ Click the OK button.
 
 **Step – 6 :**
 This will start the Android Studio.
+
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as15.png)
+
 Meanwhile it will be finding the available SDK components .
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as7-1.png)
@@ -54,13 +56,18 @@ Meanwhile it will be finding the available SDK components .
 After it has found the SDK components, it will redirect to the Welcome dialog box .
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as8.png)
+
 Click on next .
+
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as9.png)
+
 Choose Standard and click on Next.
 Now choose the theme, whether Light theme or the Dark one .
 The light one is called the IntelliJ theme whereas the dark theme is called Darcula .
 Choose as required.
+
 ![](https://media.geeksforgeeks.org/wp-content/uploads/as10.png)
+
 Click on the Next button
 
 **Step – 8 :**

@@ -10,7 +10,6 @@ i.e
 - CheckBox
 - RadioButton
 - ListView
-- GridView
 - DatePicker
 - Spinner
 

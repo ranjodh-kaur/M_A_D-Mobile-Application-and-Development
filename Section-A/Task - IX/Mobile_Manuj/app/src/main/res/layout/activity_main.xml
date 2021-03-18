@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER INTERFACE"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The user interface (UI) for an Android app is built as a hierarchy of layouts and widgets. The layouts are ViewGroup objects, containers that control how their child views are positioned on the screen. Widgets are View objects, UI components such as buttons and text boxes.\n\nAndroid provides an XML vocabulary for ViewGroup and View classes, so most of your UI is defined in XML files. However, rather than teach you to write XML, this lesson shows you how to create a layout using Android Studio's Layout Editor. The Layout Editor writes the XML for you as you drag and drop views to build your layout.
+\n\n
+User interfaces are the access points where users interact with designs. They come in three formats:
+\n\n
+1.Graphical user interfaces (GUIs)—Users interact with visual representations on digital control panels. A computer’s desktop is a GUI.
+\n\n2.Voice-controlled interfaces (VUIs)—Users interact with these through their voices. Most smart assistants—e.g., Siri on iPhone and Alexa on Amazon devices—are VUIs.
+\n\n3.Gesture-based interfaces—Users engage with 3D design spaces through bodily motions: e.g., in virtual reality (VR) games.
+"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+
+                    >
+
+
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#000000"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="
+1.Users judge designs quickly and care about usability and likeability.
+\n\n2.They don’t care about your design, but about getting their tasks done easily and with minimum effort.
+Your design should therefore be “invisible”: Users shouldn’t focus on it but on completing tasks: e.g., ordering pizza on Domino’s Zero Click app.
+\n\n3.So, understand your users’ contexts and task flows (which you can find from, e.g., customer journey maps), to fine-tune the best, most intuitive UIs that deliver seamless experiences.
+\n\n4.UIs should also be enjoyable (or at least satisfying and frustration-free).
+\n\n5.When your design predicts users’ needs, they can enjoy more personalized and immersive experiences. Delight them, and they’ll keep returning.
+\n\n6.Where appropriate, elements of gamification can make your design more fun.
+\n\n7.UIs should communicate brand values and reinforce users’ trust.
+\n\n8.Good design is emotional design. Users associate good feelings with brands that speak to them at all levels and keep the magic of pleasurable, seamless experiences alive.
+"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

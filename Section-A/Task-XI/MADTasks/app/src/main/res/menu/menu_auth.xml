@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_notifications"
+        android:icon="@drawable/ic_baseline_circle_notifications_24"
+        android:title="@string/notifications"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_signin"
+        android:title="@string/signin" />
+
+    <item
+        android:id="@+id/item_logout"
+        android:title="@string/logout" />
+</menu>

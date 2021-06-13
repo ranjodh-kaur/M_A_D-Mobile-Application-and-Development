@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Task7.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Task7.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of Technology
+Generally, we judge technology on the same scale but in reality, technology is divided into various types. This includes information technology, industrial technology, architectural technology, creative technology and many more. Let’s discuss these technologies in brief.
+
+Industrial Technology
+This technology organizes engineering and manufacturing technology for the manufacturing of machines. Also, this makes the production process easier and convenient.
+
+Creative Technology
+This process includes art, advertising, and product design which are made with the help of software. Also, it comprises of 3D printers, virtual reality, computer graphics, and other wearable technologies.
+
+Information Technology
+This technology involves the use of telecommunication and computer to send, receive and store information. Internet is the best example of Information technology.
+
+
+Today, everything we use in our daily life is a gift of technology and without which we cannot imagine our lives. Also, we cannot refuse the facts that it has caused severe damage to our surroundings.
+
+FAQs on Essay on Technology
+Q.1 What is Information technology?
+
+A – It is a form of technology that uses telecommunication and computer systems for study. Also, they send, retrieve, and store data.
+
+Q.2 Is technology harmful to humans?
+
+ A – No, technology is not harmful to human beings until it is used properly. But, misuses of technology can be harmful and deadly.
+
+Download Toppr – Best Learning App for Class 5 to 12
+Toppr provides free study materials, last 10 years of question papers, 1000+ hours of video lectures, live 24/7 doubts solving, and much more for FREE! Download Toppr app for Android and iOS or signup for free.
+
+" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

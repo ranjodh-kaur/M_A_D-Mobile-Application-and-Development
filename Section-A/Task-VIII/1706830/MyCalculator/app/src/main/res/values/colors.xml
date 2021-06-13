@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04363C</color>
+    <color name="colorPrimaryDark">#2E7078</color>
+    <color name="colorAccent">#359BA8</color>
+    <color name="selected">#32C5D8</color>
+    <color name="btn_clr">#2DD9EF</color>
+    <color name="operator_btn_clr">#00BCD4</color>
+    <color name="green">#0A6773</color>
+    <color name="yell">#053C43</color>
+    <color name="gray">#0F8797</color>
+</resources>

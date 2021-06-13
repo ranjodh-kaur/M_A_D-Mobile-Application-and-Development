@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Linear">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout 1"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        app:icon="@android:drawable/ic_dialog_dialer"
+        app:iconSize="38dp"
+        android:backgroundTint="@color/teal_700"
+        app:iconGravity="start"
+        app:iconTint="@color/yellow"
+        android:paddingBottom="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout 2"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        app:icon="@android:drawable/ic_dialog_email"
+        app:iconSize="38dp"
+        android:backgroundTint="@color/teal_700"
+        app:iconGravity="start"
+        app:iconTint="@color/yellow"
+        android:paddingBottom="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout 3"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        app:icon="@android:drawable/ic_lock_power_off"
+        app:iconSize="38dp"
+        android:backgroundTint="@color/teal_700"
+        app:iconGravity="start"
+        app:iconTint="@color/yellow"
+        android:paddingBottom="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout 4"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        app:icon="@android:drawable/ic_dialog_info"
+        app:iconSize="38dp"
+        android:backgroundTint="@color/teal_700"
+        app:iconGravity="start"
+        app:iconTint="@color/yellow"
+        android:paddingBottom="8dp"/>
+
+</LinearLayout>
+

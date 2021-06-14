@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="access_type">
+        <item>Private</item>
+        <item>Public</item>
+    </string-array>
+</resources>

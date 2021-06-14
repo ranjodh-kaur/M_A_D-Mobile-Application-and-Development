@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amrit.mad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_two"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_two_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADTasks">
+        <activity android:name=".Task17_Debugging">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".Task16_Service"></activity>
+        <activity
+            android:name=".Task2"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <activity android:name=".Task14">
+
+        </activity>
+        <activity android:name=".Task12" />
+        <activity android:name=".Task11_2" />
+        <activity android:name=".Task11_1"></activity>
+        <activity android:name=".Task10_FL" />
+        <activity android:name=".Task10_RL" />
+        <activity android:name=".Task10_LL_2" />
+        <activity android:name=".Task10_LL_1" />
+        <activity android:name=".Task10_CL" />
+        <activity android:name=".Task9" />
+        <activity android:name=".Task8" />
+        <activity android:name=".Task7" />
+        <activity android:name=".Task5" />
+        <activity android:name=".Task6" />
+    </application>
+
+</manifest>

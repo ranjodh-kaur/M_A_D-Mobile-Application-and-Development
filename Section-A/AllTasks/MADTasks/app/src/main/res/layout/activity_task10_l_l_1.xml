@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Task10_LL_1">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/LL_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Layout 1"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_baseline_home_24"
+        app:iconGravity="start"
+        app:iconSize="38dp"
+        app:iconTint="@color/green" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/LL_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Layout 2"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_baseline_language_24"
+        app:iconGravity="start"
+        app:iconSize="38dp"
+        app:iconTint="@color/green" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/LL_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Layout 3"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        app:iconGravity="start"
+        app:iconSize="38dp"
+        app:iconTint="@color/green" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/LL_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Layout 4"
+        android:textSize="24sp"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_baseline_phone_android_24"
+        app:iconGravity="start"
+        app:iconSize="38dp"
+        app:iconTint="@color/green" />
+
+</LinearLayout>

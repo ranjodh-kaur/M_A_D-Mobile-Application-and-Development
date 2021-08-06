@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task11_2">
+
+    <TextView
+        android:id="@+id/txt11_2a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Activity 2"
+        android:textColor="@color/teal_700"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt11_2b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt11_2a"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Data from Activity 1"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
+</RelativeLayout>

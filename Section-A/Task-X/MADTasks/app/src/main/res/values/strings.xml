@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MAD Tasks</string>
+    <string name="UI"><b>UI Overview</b>\n
+        All user interface elements in an Android app are built using View and ViewGroup objects. A View is
+        an object that draws something on the screen that the user can interact with. A ViewGroup
+        is an object that holds other View (and ViewGroup) objects in order to define the layout
+        of the interface.
+
+Android provides a collection of both View and ViewGroup subclasses that offer you common input
+        controls (such as buttons and text fields) and various layout models (such as a linear
+        or relative layout).
+      \n\n
+
+  <b>User Interface Layout</b>\n
+        The user interface for each component of your app is defined using a hierarchy of View and
+        ViewGroup objects, as shown in figure 1. Each view group is an invisible container
+        that organizes child views, while the child views may be input controls or other
+        widgets that draw some part of the UI. This hierarchy tree can be as simple or
+        complex as you need it to be (but simplicity is best for performance).
+    </string>
+    <string name="UI2">
+        To declare your layout, you can instantiate View objects in code and start building a tree,
+        but the easiest and most effective way to define your layout is with an XML file. XML offers
+        a human-readable structure for the layout, similar to HTML.
+    </string>
+    <string name="notifications">Notifications</string>
+    <string name="signin">SignIn</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="displyHint">Enter a value</string>
+
+    <string name="btnOneText">1</string>
+    <string name="btnTwoText">2</string>
+    <string name="btnThreeText">3</string>
+    <string name="btnFourText">4</string>
+    <string name="btnFiveText">5</string>
+    <string name="btnSixText">6</string>
+    <string name="btnSevenText">7</string>
+    <string name="btnEightText">8</string>
+    <string name="btnNineText">9</string>
+    <string name="btnZeroText">0</string>
+
+    <string name="btnClearText">CLEAR</string>
+    <string name="btnParenthesesOpenText">(</string>
+    <string name="btnParenthesesCloseText">)</string>
+    <string name="btnDivideText">÷</string>
+    <string name="btnMultiplyText">×</string>
+    <string name="btnAddText">+</string>
+    <string name="btnSubtractText">-</string>
+    <string name="btnDecimalText">.</string>
+    <string name="btnEqualsText">=</string>
+
+    <string name="btnBackspace"> </string>
+    <string name="signout">Signout</string>
+    <string name="home">Home</string>
+    <string name="form">Form</string>
+    <string name="ui">UI</string>
+    <string name="calculator">Calculator</string>
+</resources>

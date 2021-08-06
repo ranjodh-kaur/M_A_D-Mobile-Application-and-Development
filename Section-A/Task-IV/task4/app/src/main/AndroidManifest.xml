@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/deepika"
         android:label="@string/Aarsh"
+        android:label="@string/Deepika"
         android:roundIcon="@mipmap/deepika"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">

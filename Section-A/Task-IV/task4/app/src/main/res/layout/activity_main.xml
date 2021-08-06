@@ -4,13 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="@color/colorBG1"
+
+    android:background="@color/colorAccent"
+
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="Hi Aarsh Here"
+
+        android:text="Hi Deepika Here"
+
         android:textSize="30dp"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"

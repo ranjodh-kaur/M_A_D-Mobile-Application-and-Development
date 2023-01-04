@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="10pt">
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="80dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        app:srcCompat="@drawable/img" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        app:srcCompat="@drawable/img" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:backgroundTint="#5768C5"-->
+<!--        android:text="SIGN UP WITH FACEBOOK"-->
+<!--        app:cornerRadius="35pt" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewf"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Or" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewg"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginBottom="15pt"-->
+<!--        android:textSize="18dp"-->
+<!--        android:text="Sign up with your email address"-->
+<!--        android:textStyle="bold"/>-->
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20px"
+            android:inputType="textPersonName"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="20px"
+            android:layout_gravity="center"
+            android:inputType="textPersonName"
+            android:hint="Confirm email" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20px"
+            android:inputType="textPersonName"
+            android:hint="Password" />
+
+    <Button
+        android:id="@+id/Inbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert" />
+    <Button
+        android:id="@+id/delbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+    <Button
+        android:id="@+id/upbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+    <Button
+        android:id="@+id/vwbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View" />
+
+
+    <!--        <EditText-->
+<!--            android:id="@+id/editTextTextUserName"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginBottom="20px"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="What should we call you?" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10pt"-->
+<!--            android:text="Date of Birth:" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner"-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="44dp"-->
+<!--            android:layout_marginLeft="10pt"-->
+<!--            android:hint="Month" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextText"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Date"-->
+<!--            android:inputType="textPersonName" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextYear"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Year"-->
+<!--            android:inputType="textPersonName" />-->
+    </LinearLayout>

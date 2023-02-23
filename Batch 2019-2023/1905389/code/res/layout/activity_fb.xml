@@ -1,0 +1,63 @@
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="5dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/fbimg"
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/fb_img" />
+
+    <TextView
+        android:id="@+id/ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Where do you want to go?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fbapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#4B5CBA"
+        android:text="Facebook App"
+        app:cornerRadius="23pt" />
+
+    <TextView
+        android:id="@+id/forgotBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Or"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fbweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#AEF44336"
+        android:text="Facebook on web"
+        app:cornerRadius="23pt" />
+
+</LinearLayout>

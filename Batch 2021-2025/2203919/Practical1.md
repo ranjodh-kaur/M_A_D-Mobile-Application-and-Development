@@ -2,9 +2,8 @@
 
 ## Introduction
 This practical file explores the tools, programming languages, UI design principles, navigation, resource management, design patterns, data handling, testing, debugging, and app distribution for both platforms.
-## Development Environment Setup
 
-  ## Android Development Environment:
+## Android Development Environment:
 
 1. ### Programming Languages
     - Java: The primary language for Android development for many years.

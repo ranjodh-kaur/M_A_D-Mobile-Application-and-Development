@@ -1,4 +1,4 @@
-# Practical 1:To study design aspects of development enviornment like android, ios
+# Practical 1: To study design aspects of development enviornment like android, iOS.
 
 # Android Development Environment
 

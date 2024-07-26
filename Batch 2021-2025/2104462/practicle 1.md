@@ -1,6 +1,6 @@
 ## PRACTICAL 1. Android Development Environment: To study design aspects of development environment like Android, iOS.
 
-
+### Android Development Environment
 #### 1. Programming Languages
 - **Java**: The primary language for Android development for many years.
 - **Kotlin**: Officially supported by Google and preferred for new Android applications due to its modern features and interoperability with Java.
@@ -29,7 +29,7 @@
 - **Espresso**: For UI testing.
 - **Robolectric**: For running tests on the JVM without an emulator.
 
-#### iOS Development Environment
+### iOS Development Environment
 
 #### 1. Programming Languages
 - **Objective-C**: An older language used for iOS development.

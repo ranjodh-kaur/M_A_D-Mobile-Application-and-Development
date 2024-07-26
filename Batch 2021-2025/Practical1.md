@@ -69,7 +69,6 @@ This experiment aims to study the design aspects of mobile development environme
 |------------------------|---------------------------------------------------|---------------------------------------------------|
 | Development Tools  | Android Studio                                    | Xcode                                             |
 | Programming Languages | Java, Kotlin                                   | Swift, Objective-C                                |
-| Architecture Components | Activities, Services, Broadcast Receivers, Content Providers | ViewControllers, Views, Models                    |
 | Frameworks         | Jetpack, Retrofit, Dagger                         | SwiftUI, Combine, Alamofire                       |
 | UI Design Tools    | Layout Editor                                     | Interface Builder                                 |
 | Virtual Device     | Android Virtual Device (AVD)                      | iOS Simulator                                     |

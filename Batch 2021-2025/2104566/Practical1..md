@@ -1,9 +1,10 @@
-# Practical 1:To study design aspects of development enviornment like android,ios
+## Practical 1:To study design aspects of development enviornment like android,ios
+
 # Introduction
 Studying the design aspects of development environments for Android and iOS involves understanding the tools, frameworks, design guidelines, and best practices for creating applications on these platforms. Here's a breakdown of key areas to focus on for each platform
 
-# Android Development Environment
-  ### Integrated Development Enviornment (IDE) : 
+#### Android Development Environment
+  #### Integrated Development Enviornment (IDE) : 
 
 - **Android Studio:** The official IDE for Android development, providing a robust set of tools for building, testing, and debugging Android apps.
 
@@ -32,35 +33,35 @@ Studying the design aspects of development environments for Android and iOS invo
 - **JUnit, Espresso, Robolectric:** Tools and frameworks for unit and UI testing.
 
 
-# iOS Development Environment
-### Integrated Development Enviornment (IDE)  :
+#### iOS Development Environment
+#### Integrated Development Enviornment (IDE)  :
 
 - **Xcode:** The official IDE for iOS development, providing a comprehensive suite of tools for designing, coding, testing, and debugging iOS apps.
 
-### Programming Languages:
+#### Programming Languages:
 
 - **Objective-C:** Historically the main language for iOS development.
 - **Swift:**  Now the preferred language, known for its safety, performance, and modern syntax.
 
-### UI Design:
+#### UI Design:
 
 - **Storyboard and SwiftUI:** Tools for building UIs. Storyboards use a visual interface, while SwiftUI provides a declarative syntax for defining UI components.
 
-### Software Development Kit (SDK):
+#### Software Development Kit (SDK):
 - **IOS SDK:** Provides necessary tool sand frameworks for building ios applications , includes loibraries likeUIKit ,foundation and core data\
   
-### Frameworks and Libraries:
+#### Frameworks and Libraries:
 
 - **UIKit:** The primary framework for building iOS user interfaces.
 - **SwiftUI:** A modern framework for building UIs across all Apple platforms with a declarative Swift syntax.
 - **Core Data, Alamofire, Kingfisher:** Popular libraries for data persistence, networking, and image loading.
 
-### Testing:
+#### Testing:
 
 - **XCTest:** The framework for unit and UI testing.
 - **Snapshot Testing, Quick, Nimble:** Additional frameworks for more comprehensive testing approaches.
 
-## Comparative Analysis
+#### Comparative Analysis
 
 | Aspect                 | Android Development                               | iOS Development                                    |
 |------------------------|---------------------------------------------------|---------------------------------------------------|

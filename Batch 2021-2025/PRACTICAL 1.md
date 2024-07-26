@@ -116,15 +116,11 @@ Follow the installation instructions and set up the SDK.
 |------------------------|---------------------------------------------------|---------------------------------------------------|
 | Development Tools  | Android Studio                                    | Xcode                                             |
 | Programming Languages | Java, Kotlin                                   | Swift, Objective-C                                |
-| Architecture Components | Activities, Services, Broadcast Receivers, Content Providers | ViewControllers, Views, Models                    |
 | Frameworks         | Jetpack, Retrofit, Dagger                         | SwiftUI, Combine, Alamofire                       |
 | UI Design Tools    | Layout Editor                                     | Interface Builder                                 |
 | Virtual Device     | Android Virtual Device (AVD)                      | iOS Simulator                                     |
 | Dependency Management | Gradle                                         | CocoaPods, Swift Package Manager                  |
 | Performance        | Good with flexibility                             | Excellent with optimized hardware integration     |
-| Learning Curve     | Moderate to high (due to fragmentation)           | Moderate (focused ecosystem)                      |
-| Community Support  | Large and active                                  | Large and active                                  |
-| Store Submission Process | Less strict, faster review times           | More stringent, longer review times               |
 
 
 

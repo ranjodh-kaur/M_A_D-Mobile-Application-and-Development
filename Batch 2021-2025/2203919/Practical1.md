@@ -1,9 +1,9 @@
 # Practical 1 :To study design aspects of development environment like Android, iOS.
-# Introduction
-Mobile app development has become an essential skill in today’s technology-driven world. Understanding the design aspects of development environments like Android and iOS is crucial for building efficient, user-friendly applications. This practical file explores the tools, programming languages, UI design principles, navigation, resource management, design patterns, data handling, testing, debugging, and app distribution for both platforms.
-# Development Environment Setup
 
-  ## Android Development Environment:
+## Introduction
+This practical file explores the tools, programming languages, UI design principles, navigation, resource management, design patterns, data handling, testing, debugging, and app distribution for both platforms.
+
+## Android Development Environment:
 
 1. ### Programming Languages
     - Java: The primary language for Android development for many years.
@@ -74,6 +74,6 @@ Mobile app development has become an essential skill in today’s technology-dri
 | Virtual Device     | Android Virtual Device (AVD)                      | iOS Simulator                                     |
 | Dependency Management | Gradle                                         | CocoaPods, Swift Package Manager                  |
 | Performance        | Good with flexibility                             | Excellent with optimized hardware integration     |
-=======
+
 
 

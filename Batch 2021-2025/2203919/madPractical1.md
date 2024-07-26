@@ -1,4 +1,4 @@
-# To study design aspects of development environment like Android, iOS.
+# Practical 1: To study design aspects of development environment like Android, iOS.
 # Introduction
 Mobile app development has become an essential skill in today’s technology-driven world. Understanding the design aspects of development environments like Android and iOS is crucial for building efficient, user-friendly applications. This practical file explores the tools, programming languages, UI design principles, navigation, resource management, design patterns, data handling, testing, debugging, and app distribution for both platforms.
 # Development Environment Setup

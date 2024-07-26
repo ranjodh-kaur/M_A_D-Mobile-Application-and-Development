@@ -1,6 +1,6 @@
 ## Practical 1: To study design aspects of development enviornment like android,ios
 
-# Introduction
+#### Introduction
 Studying the design aspects of development environments for Android and iOS involves understanding the tools, frameworks, design guidelines, and best practices for creating applications on these platforms. Here's a breakdown of key areas to focus on for each platform
 
 #### Android Development Environment

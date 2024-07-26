@@ -1,4 +1,4 @@
-1. Android Development Environment: To study design aspects of development environment like Android,iOS.
+1. Android Development Environment: To study design aspects of development environment like Android, iOS.
    
 2. Android Development Environment: To setup Android studio2 and study its basic components.
 

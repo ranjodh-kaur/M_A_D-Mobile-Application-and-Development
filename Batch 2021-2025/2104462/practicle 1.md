@@ -1,4 +1,4 @@
-## PRACTICAL 1 Android Development Environment: To study design aspects of development environment like Android, iOS.
+## PRACTICAL 1. Android Development Environment: To study design aspects of development environment like Android, iOS.
 
 
 #### 1. Programming Languages

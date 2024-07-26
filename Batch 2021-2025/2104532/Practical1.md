@@ -1,9 +1,11 @@
-# Android Development Environment: To Study Design Aspects of Development Environment like Android, iOS
+## PRACTICAL 1. Android Development Environment: To study design aspects of development environment like Android, iOS.
 
-## Introduction
+### Android Development Environment
+
+### Introduction
 This experiment aims to study the design aspects of mobile development environments, focusing on Android and iOS. The goal is to understand the tools, frameworks, and best practices used in the development of mobile applications for these platforms.
 
-## Android Development Environment
+### Android Development Environment
 
 1. **Programming Languages**
    - *Java*: The primary language for Android development for many years.
@@ -33,7 +35,7 @@ This experiment aims to study the design aspects of mobile development environme
    - *Espresso*: For UI testing.
    - *Robolectric*: For running tests on the JVM without an emulator.
 
-## iOS Development Environment
+### iOS Development Environment
 
 1. **Programming Languages**
    - *Objective-C*: An older language used for iOS development.

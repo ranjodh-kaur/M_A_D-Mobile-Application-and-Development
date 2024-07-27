@@ -35,12 +35,6 @@ Objective:
 - Accessibility: Designing for users with disabilities.
 - Touch Targets: Ensuring buttons and interactive elements are easily tappable.
 
-2.5 Best Practices:
-
-- Code Structure: Organizing code into packages and using MVC/MVVM patterns.
-- Performance Optimization: Techniques to improve app performance and reduce battery consumption.
-- Testing: Importance of unit testing, integration testing, and UI testing.
-
 **3. iOS Development Environment**
 
 3.1 Overview:

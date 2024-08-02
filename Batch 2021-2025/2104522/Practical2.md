@@ -35,6 +35,7 @@ Step 6: This will start the Android Studio.
 ![image](https://github.com/user-attachments/assets/4882b872-0771-454d-839a-abe8c0ee53b8)
 
 Meanwhile, it will be finding the available SDK components.
+
 ![image](https://github.com/user-attachments/assets/73de8065-4cf7-4f9a-aefd-68050ac57255)
 
 

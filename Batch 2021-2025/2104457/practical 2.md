@@ -1,5 +1,5 @@
-# PRACTICAL 2
-## TITLE: Android Development Environment: To setup Android studio2 and study its basic components.
+
+## PRACTICAL 2: Android Development Environment: To setup Android studio2 and study its basic components.
 
 ### Android Studio System Requirements for Windows
   - Microsoft Windows 7/8/10 (32-bit or 64-bit)

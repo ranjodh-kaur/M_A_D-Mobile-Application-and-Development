@@ -1,4 +1,4 @@
-# AIM: Android Development Environment: To setup Android studio2 and study its basic components.
+# Practical 2: Android Development Environment: To setup Android studio2 and study its basic components.
 
 **1. Install Android Studio**
 

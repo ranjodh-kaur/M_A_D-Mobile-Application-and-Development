@@ -1,0 +1,127 @@
+
+
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="18pt">-->
+
+
+<!--        <TableRow android:background="#8BC34A"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="13pt"-->
+<!--                android:text="TUTORIAL"-->
+<!--                android:layout_marginRight="8pt"-->
+<!--                android:backgroundTint="#8BC34A"/>-->
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginRight="10pt"-->
+<!--                android:text="EXAMPLES"-->
+<!--                android:backgroundTint="#8BC34A"/>-->
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="QUIZ"-->
+<!--                android:backgroundTint="#8BC34A"-->
+<!--                />-->
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#8BC34A">
+
+        <TableRow android:background="#8BC34A"
+                    android:layout_width="match_parent"
+                   android:layout_height="match_parent" >
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:backgroundTint="@color/white"
+                        android:layout_width="88pt"
+                        android:layout_height="80pt"
+                        app:srcCompat="@drawable/androidlogo" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:backgroundTint="@color/white"
+                        android:layout_width="88pt"
+                        android:layout_height="80pt"
+                        app:srcCompat="@drawable/androidlogo" />
+
+                </TableRow>
+
+                <TableRow >
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:backgroundTint="@color/white"
+                        android:layout_width="88pt"
+                        android:layout_height="80pt"
+                        app:srcCompat="@drawable/androidlogo" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:backgroundTint="@color/white"
+                        android:layout_width="88pt"
+                        android:layout_height="80pt"
+                        app:srcCompat="@drawable/androidlogo" />
+
+                </TableRow>
+
+                <TableRow >
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:backgroundTint="@color/white"
+                        android:layout_width="88pt"
+                        android:layout_height="80pt"
+                        app:srcCompat="@drawable/androidlogo" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:backgroundTint="@color/white"
+                        android:layout_width="88pt"
+                        android:layout_height="80pt"
+                        app:srcCompat="@drawable/androidlogo" />
+
+                </TableRow>
+
+        <!--        <TableRow >-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imageButton6"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:layout_width="88pt"-->
+<!--                android:layout_height="80pt"-->
+<!--                app:srcCompat="@drawable/androidlogo" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imageButton7"-->
+<!--                android:backgroundTint="@color/white"-->
+<!--                android:layout_width="88pt"-->
+<!--                android:layout_height="80pt"-->
+<!--                app:srcCompat="@drawable/androidlogo" />-->
+
+<!--        </TableRow>-->
+
+
+    </TableLayout>
+<!--        </ScrollView>-->
+

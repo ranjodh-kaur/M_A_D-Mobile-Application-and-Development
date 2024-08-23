@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10pt">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        app:srcCompat="@drawable/img" />-->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/img" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#5768C5"
+        android:text="SIGN UP WITH FACEBOOK"
+        app:cornerRadius="35pt" />
+
+
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Or" />
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+            android:layout_marginBottom="15pt"
+        android:textSize="18dp"
+        android:text="Sign up with your email address"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10pt">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20px"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20px"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Confirm email" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20px"
+        android:inputType="textPersonName"
+        android:hint="Password" />
+
+
+    <EditText
+        android:id="@+id/editTextTextUserName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20px"
+        android:inputType="textPersonName"
+        android:hint="What should we call you?" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10pt"
+        android:text="Date of Birth:" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextDate"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="date" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        android:padding="1pt">
+
+        <!--        <TableRow>-->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10pt"
+            android:hint="Month" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextYear"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Year"
+            android:inputType="textPersonName" />
+
+
+        <!--        </TableRow>-->
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3pt">
+
+        <TableRow>
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5pt"
+            android:text="Male" />
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5pt"
+            android:text="Female" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Others" />
+
+        </TableRow>
+    </TableLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="6pt"
+                android:layout_marginBottom="8pt"
+                android:text="Share my registration data with Spotify's content providers for marketing purposes." />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="500px"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="I'm no robot" />
+<!--                android:textSize="6pt"-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4pt"
+        android:textColor="@color/black"
+        android:text="By clicking on Sign Up, you agree to Spotify's Term and Conditions of Use." />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4pt"
+        android:textColor="@color/black"
+        android:text="To learn more about ho Spotify collects, uses, shares and protects your personal data please read Spotify's Privacy Please." />
+
+            <Button
+                android:layout_width="600px"
+                android:layout_height="match_parent"
+                android:padding="4pt"
+                android:layout_gravity="center"
+                android:backgroundTint="#37C63F"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                app:cornerRadius="10pt" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img" />
+
+
+    <!--        <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            -->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--Button to request storage permission-->
+    <Button
+        android:id="@+id/storage"
+        android:layout_width="100pt"
+        android:layout_height="40pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="20pt"
+        android:text="Storage"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"/>
+<!--        android:layout_below="@id/toolbar"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+    <!--Button to request camera permission-->
+
+
+
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="100pt"
+        android:layout_height="40pt"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Camera"
+        android:layout_below="@id/storage"
+        android:layout_centerHorizontal="true"/>
+
+
+</LinearLayout>

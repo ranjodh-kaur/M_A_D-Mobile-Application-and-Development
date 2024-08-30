@@ -47,3 +47,4 @@ public class MainActivity extends AppCompatActivity {
 
 This setup will display "Hello World!" centered on the screen using a ConstraintLayout.
 
+![My Image](./images/Screenshot-2024-08-20.png)

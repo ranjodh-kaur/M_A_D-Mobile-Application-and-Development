@@ -108,3 +108,6 @@ public class SendMessageActivity extends AppCompatActivity {
     }
 }
 ```
+<p align="center">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/vertical.jpg?raw=true" width="300" height="300">
+</p>

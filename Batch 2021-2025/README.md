@@ -6,12 +6,20 @@
 3. Android User Interface Design: To study various XML files needed for interface design.
 
 4. Android User Interface Design: To implement different type of layouts like relative, grid, linear and table.
-    - Develop a program to implement constraint layout to display Hello World on screen.
-    - Develop a program to implement linear layout (vertical and horizontal)
+    1. Develop a program to implement constraint layout to display Hello World on screen.
+    2. Develop a program to implement linear layout (vertical and horizontal)
       
       ![Vertical](https://www.tutlane.com/images/android/android_linearlayout_example_output.png)
-    - Develop a program to implement relative layout to display sign up form.
-    - Develop a program to implement table layout to display calculator.
+
+   
+   
+    3. Develop a program to implement relative layout to display Login and sign up form and registration form.
+
+      ![Login and Sign up](https://www.codingnepalweb.com/wp-content/uploads/2022/11/Login-Registration-Form-in-HTML-CSS.png)
+       
+       ![Registration Form](https://cdn.jotfor.ms/assets/img/templates/og-images/form-templates/registration-form.png)
+       
+    5. Develop a program to implement table layout to display calculator.
 
 6. Apps Interactivity in Android: To incorporate element of interactivity using Android Fragment and Intent Class.
 

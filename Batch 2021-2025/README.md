@@ -16,8 +16,8 @@
     3. Develop a program to implement relative layout to display Login and sign up form and registration form.
 
       ![Login and Sign up](https://www.codingnepalweb.com/wp-content/uploads/2022/11/Login-Registration-Form-in-HTML-CSS.png)
-       
-       ![Registration Form](https://cdn.jotfor.ms/assets/img/templates/og-images/form-templates/registration-form.png)
+
+   ![Registration Form](https://cdn.jotfor.ms/assets/img/templates/og-images/form-templates/registration-form.png)
        
     5. Develop a program to implement table layout to display calculator.
 

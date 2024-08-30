@@ -46,5 +46,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 This setup will display "Hello World!" centered on the screen using a ConstraintLayout.
+<p align="center">
+    <img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-08-30%20at%2012.00.13_bd7c567d.jpg?raw=true" alt="My Image" width="300" height="300"/>
+</p>
 
-![My Image](https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-08-30%20at%2012.00.13_bd7c567d.jpg?raw=true)

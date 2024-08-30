@@ -7,9 +7,11 @@
 
 4. Android User Interface Design: To implement different type of layouts like relative, grid, linear and table.
     - Develop a program to implement constraint layout to display Hello World on screen.
-    - Develop a program to implement linear layout.
+    - Develop a program to implement linear layout (vertical and horizontal)
+      
+      ![Vertical](https://www.tutlane.com/images/android/android_linearlayout_example_output.png)
     - Develop a program to implement relative layout to display sign up form.
-    - Develop a program to implement table layout to display 
+    - Develop a program to implement table layout to display calculator.
 
 6. Apps Interactivity in Android: To incorporate element of interactivity using Android Fragment and Intent Class.
 

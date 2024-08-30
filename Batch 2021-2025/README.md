@@ -20,6 +20,11 @@
     4. Develop a program to implement table layout to display calculator.
 
        ![Calculator](https://media.cheggcdn.com/media/234/2344e286-bf61-48b8-8f38-65d009e3cdbe/phpeZvrC0)
+       
+    6. Develop a program to implement frame Layout to display Text View, Plain Text, Password, Password(numeric) , Email, Phone, Postal address, Multiline Text, Time, Date, Number, Number(signed) , Number (decimal), AutoCompleteTextView, MultiAutoCompleteTextView, CheckedTextView, TextInputLayout.
+    7. Develop a program to implement 
+    8. Develop a program to implement Auto 
+      
 
 6. Apps Interactivity in Android: To incorporate element of interactivity using Android Fragment and Intent Class.
 

@@ -17,9 +17,9 @@
 
       ![Login and Sign up](https://www.codingnepalweb.com/wp-content/uploads/2022/11/Login-Registration-Form-in-HTML-CSS.png)
 
-   
-       
-    5. Develop a program to implement table layout to display calculator.
+    4. Develop a program to implement table layout to display calculator.
+
+       ![Calculator](https://media.cheggcdn.com/media/234/2344e286-bf61-48b8-8f38-65d009e3cdbe/phpeZvrC0)
 
 6. Apps Interactivity in Android: To incorporate element of interactivity using Android Fragment and Intent Class.
 

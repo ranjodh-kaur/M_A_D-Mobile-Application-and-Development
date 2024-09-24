@@ -21,12 +21,10 @@
 
        ![Calculator](https://media.cheggcdn.com/media/234/2344e286-bf61-48b8-8f38-65d009e3cdbe/phpeZvrC0)
        
-    5. Develop a program to implement frame Layout to display Text View, Plain Text, Password, Password(numeric) , Email, Phone, Postal address, Multiline Text, Time, Date, Number, Number(signed) , Number (decimal), AutoCompleteTextView, MultiAutoCompleteTextView, CheckedTextView, TextInputLayout. 
-    6. Develop a program to implement Button, ImageButton, TogggleButton and FloatingActionButton.
-    7. Develop a program to implement Login window ising UI controls.
-    8. Develop a program to implement Checkbox, Chip, ChipGroup, Radio Button and Radio Group.
-    9. Develop a program to implement Progress Bar and Switch.
-    10. Develop a program to implement List View, Grid View, Image View, Scroll View, Recycler View, Navigation View, ButtomNavigationView.
+    5. Develop a program to implement UI from **Buttons Palette** i.e Button, ImageButton, TogggleButton, Checkbox, Chip, ChipGroup, Radio Button and Radio Group and FloatingActionButton.
+    6. Develop a program to implement UI from **Text Palette** use two Login windows. First is to Login with a Key use [Password(numeric)] and in second UI implement frame Layout to display Phone, Postal address, Time, Date, Number, Number(signed) , Number (decimal), AutoCompleteTextView, MultiAutoCompleteTextView, CheckedTextView, TextInputLayout.
+    7. Develop a program to implement UI from **Widgets Palette** i.e Progress Bar, SeekBar , RatingBar  and Switch.
+    8. Develop a program to implement UI from **Containers Palette** i.e List View, Grid View, Image View, Scroll View, Recycler View, Navigation View, ButtomNavigationView.
       
 
 6. Apps Interactivity in Android: To incorporate element of interactivity using Android Fragment and Intent Class.

@@ -28,11 +28,12 @@
       
 
 6. Apps Interactivity in Android: To incorporate element of interactivity using Android Fragment and Intent Class.
+   
 
-7. Persistent Data Storage: To perform database connectivity of android app using SQLite.
+8. Persistent Data Storage: To perform database connectivity of android app using SQLite.
 
-8. Android Services and Threads:To implement the concept of multithreading using Android Service class.
+9. Android Services and Threads:To implement the concept of multithreading using Android Service class.
 
-9. Android Security and Debugging: To implement concept of permission and perform request for permission to access different hardware components of mobile.
+10. Android Security and Debugging: To implement concept of permission and perform request for permission to access different hardware components of mobile.
 
-10. Android Security and Debugging: To perform debugging and testing of android app using tools like Logcat, Android debug bridge, DDMS.
+11. Android Security and Debugging: To perform debugging and testing of android app using tools like Logcat, Android debug bridge, DDMS.

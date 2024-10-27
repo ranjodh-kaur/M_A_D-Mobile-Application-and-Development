@@ -666,3 +666,205 @@ public class SendMessageActivity extends AppCompatActivity {
 <img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/signup.jpg" width="200">
 <img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/login.jpg" width="200">
 </p>
+
+### iii. Develop a program to implement relative layout to display Login and sign up form.
+**XML Layout (`calculator.xml`):**
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/calculation_display"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#EEEEEE"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:text="0" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_gravity="center">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="AC"
+                android:background="#5C6BC0"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="()"
+                android:background="#5C6BC0"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="%"
+                android:background="#5C6BC0"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="7"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="8"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="9"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="/"
+                android:background="#3949AB"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="4"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="5"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="6"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="*"
+                android:background="#3949AB"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="1"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="2"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="3"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="-"
+                android:background="#3949AB"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="."
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:background="#9575CD"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="="
+                android:background="#FF5722"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="+"
+                android:background="#3949AB"
+                android:textColor="#FFFFFF"
+                android:layout_margin="4dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+```
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/signup.jpg" width="200">

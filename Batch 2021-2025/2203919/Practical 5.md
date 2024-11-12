@@ -300,3 +300,215 @@ public class SecondActivity extends AppCompatActivity {
 <img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_2d04609c.jpg" width="200">
 <img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_e2edc1c1.jpg" width="200">
 </p>
+
+###   ii. Android fragments 
+
+To demonstrate interactivity with Android Fragments, let’s create a simple app where clicking a button in one fragment updates a `TextView` in another fragment. We'll use two fragments: `FragmentA` and `FragmentB`, both hosted in a single `MainActivity`. The two fragments will communicate through the `MainActivity`.
+
+### Step 1: Create the Project Structure
+
+1. **MainActivity**: Hosts `FragmentA` and `FragmentB`.
+2. **FragmentA**: Contains a button that, when clicked, sends a message to `FragmentB`.
+3. **FragmentB**: Contains a `TextView` to display the message received from `FragmentA`.
+
+### Step 2: Create Layout Files
+
+#### 1. `activity_main.xml`
+
+This layout holds two containers to host the two fragments.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Container for FragmentA -->
+    <FrameLayout
+        android:id="@+id/container_fragment_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <!-- Container for FragmentB -->
+    <FrameLayout
+        android:id="@+id/container_fragment_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+</LinearLayout>
+```
+
+#### 2. `fragment_a.xml`
+
+This layout contains a `Button` that will send a message to `FragmentB`.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message to FragmentB" />
+</LinearLayout>
+```
+
+#### 3. `fragment_b.xml`
+
+This layout contains a `TextView` to display the message from `FragmentA`.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for message..."
+        android:textSize="18sp"/>
+</LinearLayout>
+```
+
+### Step 3: Create Fragment Classes
+
+#### 1. `FragmentA.java`
+
+This fragment has a button that sends a message to `MainActivity`.
+
+```java
+package com.example.myapp;
+
+import android.content.Context;
+import android.os.Bundle;
+import androidx.fragment.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+public class FragmentA extends Fragment {
+
+    private OnMessageSendListener messageSendListener;
+
+    public interface OnMessageSendListener {
+        void onMessageSend(String message);
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if (context instanceof OnMessageSendListener) {
+            messageSendListener = (OnMessageSendListener) context;
+        } else {
+            throw new RuntimeException(context.toString() + " must implement OnMessageSendListener");
+        }
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_a, container, false);
+
+        Button buttonSend = view.findViewById(R.id.button_send);
+        buttonSend.setOnClickListener(v -> {
+            if (messageSendListener != null) {
+                messageSendListener.onMessageSend("Hello from FragmentA!");
+            }
+        });
+
+        return view;
+    }
+}
+```
+
+#### 2. `FragmentB.java`
+
+This fragment receives and displays the message from `FragmentA`.
+
+```java
+package com.example.myapp;
+
+import android.os.Bundle;
+import androidx.fragment.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+public class FragmentB extends Fragment {
+
+    private TextView textViewMessage;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_b, container, false);
+        textViewMessage = view.findViewById(R.id.textview_message);
+        return view;
+    }
+
+    public void updateMessage(String message) {
+        if (textViewMessage != null) {
+            textViewMessage.setText(message);
+        }
+    }
+}
+```
+
+### Step 4: Implement `MainActivity.java`
+
+In `MainActivity`, we initialize `FragmentA` and `FragmentB`. We implement the `OnMessageSendListener` interface in `MainActivity` to handle messages from `FragmentA` and pass them to `FragmentB`.
+
+```java
+package com.example.myapp;
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
+public class MainActivity extends AppCompatActivity implements FragmentA.OnMessageSendListener {
+
+    private FragmentB fragmentB;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        // Load FragmentA
+        FragmentA fragmentA = new FragmentA();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.container_fragment_a, fragmentA);
+        transaction.commit();
+
+        // Load FragmentB
+        fragmentB = new FragmentB();
+        FragmentTransaction transaction2 = getSupportFragmentManager().beginTransaction();
+        transaction2.replace(R.id.container_fragment_b, fragmentB);
+        transaction2.commit();
+    }
+
+    @Override
+    public void onMessageSend(String message) {
+        // Send message to FragmentB
+        fragmentB.updateMessage(message);
+    }
+}
+```
+<p align="center">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.45_63b148ee.jpg" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_2d04609c.jpg" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_e2edc1c1.jpg" width="200">
+</p>

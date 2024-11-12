@@ -1,3 +1,5 @@
+## PRACTICAL 6 : Persistent Data Storage: To perform database connectivity of android app using SQLite.
+
 Using SQLite in an Android app is a great way to implement persistent data storage. Below is a simple example to demonstrate how to set up a SQLite database in an Android app, including creating, inserting, retrieving, and displaying data.
 
 ### Overview
@@ -175,3 +177,7 @@ public class MainActivity extends AppCompatActivity {
 2. **Display Data**: `displayData()` retrieves all names in the database and displays them in the `TextView`.
 
 This example demonstrates basic SQLite CRUD operations (Create and Read) in Android using Java.
+<p align="center">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/sql1.jpg" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/sql2.jpg" width="200">
+</p>

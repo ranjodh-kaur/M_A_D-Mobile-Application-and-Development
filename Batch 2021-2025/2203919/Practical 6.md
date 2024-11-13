@@ -178,6 +178,6 @@ public class MainActivity extends AppCompatActivity {
 
 This example demonstrates basic SQLite CRUD operations (Create and Read) in Android using Java.
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/sql1.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/sql2.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/sql1.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/sql2.jpg?raw=true" width="200">
 </p>

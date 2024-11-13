@@ -296,9 +296,9 @@ public class SecondActivity extends AppCompatActivity {
 }
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.45_63b148ee.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_2d04609c.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_e2edc1c1.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.45_63b148ee.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_2d04609c.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.58.44_e2edc1c1.jpg?raw=true" width="200">
 </p>
 
 ###   ii. Android fragments 
@@ -508,6 +508,6 @@ public class MainActivity extends AppCompatActivity implements FragmentA.OnMessa
 }
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/fr2.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/fr1.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/fr2.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/fr1.jpg?raw=true" width="200">
 </p>

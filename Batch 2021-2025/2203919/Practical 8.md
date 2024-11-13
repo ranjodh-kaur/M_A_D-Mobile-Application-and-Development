@@ -154,8 +154,8 @@ In `activity_main.xml`, add a button to request permissions:
 This setup helps ensure that your app requests permissions only when necessary and handles users' choices gracefully.
 
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.2.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.3.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.4.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.2.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.3.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac8.4.jpg?raw=true" width="200">
 </p>

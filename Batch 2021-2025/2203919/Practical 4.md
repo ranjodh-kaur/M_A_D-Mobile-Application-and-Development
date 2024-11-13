@@ -378,7 +378,7 @@ public class SendMessageActivity extends AppCompatActivity {
 </LinearLayout>
 ```
 <p align="center">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/registration.jpg" width="300" height="500" >
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/registration.jpg?raw=true" width="300" height="500   >
 </p>
 
 ### iii. Develop a program to implement relative layout to display Login and sign up form.

@@ -129,6 +129,6 @@ A simple layout with a button to start the service.
 
 When you tap "Start Service," the app launches `MyIntentService`. This service will log a message every second for five seconds, simulating a task. Using `IntentService` keeps the main thread free, preventing UI freezing.
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac7.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/Screenshot%202024-11-13%20112035.png" width="500" height="100">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac7.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/Screenshot%202024-11-13%20112035.png?raw=true" width="500" height="100">
 </p>

@@ -1144,5 +1144,152 @@ public class SendMessageActivity extends AppCompatActivity {
 </p>
 
 ### vii. Develop a program to implement UI from Widgets Palette use Relative Layout i.e Progress Bar, SeekBar , RatingBar and Switch.
-**XML Layout (`bar.xml`):**
+To develop an Android app that implements a UI using **RelativeLayout** with the widgets **ProgressBar**, **SeekBar**, **RatingBar**, and **Switch**, follow these steps:
+
+### Step 1: Create a New Android Project
+
+1. Open **Android Studio**.
+2. Create a new project with **Empty Activity**.
+3. Set the **Language** to **Java** (or **Kotlin**, but here I'll use Java).
+
+### Step 2: Modify `activity_main.xml`
+
+This file will contain the layout code using **RelativeLayout** to place the widgets (ProgressBar, SeekBar, RatingBar, and Switch).
+
+#### `res/layout/activity_main.xml`
+
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:indeterminate="true" />
+
+    <!-- SeekBar -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:layout_marginTop="40dp"
+        android:max="100" />
+
+    <!-- RatingBar -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:layout_marginTop="40dp"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="3.0" />
+
+    <!-- Switch -->
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginTop="40dp"
+        android:text="Enable Feature"
+        android:checked="false" />
+        
+</RelativeLayout>
+```
+### Step 3: Modify `MainActivity.java`
+
+In this step, you will interact with these widgets programmatically (like updating the progress or responding to user inputs).
+
+#### `src/com/example/yourapp/MainActivity.java`
+
+```java
+package com.example.yourapp;
+
+import android.os.Bundle;
+import android.widget.ProgressBar;
+import android.widget.SeekBar;
+import android.widget.RatingBar;
+import android.widget.Switch;
+import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+
+    private ProgressBar progressBar;
+    private SeekBar seekBar;
+    private RatingBar ratingBar;
+    private Switch switch1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        // Initialize the widgets
+        progressBar = findViewById(R.id.progressBar);
+        seekBar = findViewById(R.id.seekBar);
+        ratingBar = findViewById(R.id.ratingBar);
+        switch1 = findViewById(R.id.switch1);
+
+        // SeekBar Listener
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                // Show the current progress value in a toast
+                Toast.makeText(MainActivity.this, "SeekBar Progress: " + progress, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                // Optional: Code to handle when user starts tracking the SeekBar
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                // Optional: Code to handle when user stops tracking the SeekBar
+            }
+        });
+
+        // RatingBar Listener
+        ratingBar.setOnRatingBarChangeListener((ratingBar, rating, fromUser) -> {
+            // Show the rating value in a toast
+            Toast.makeText(MainActivity.this, "Rating: " + rating, Toast.LENGTH_SHORT).show();
+        });
+
+        // Switch Listener
+        switch1.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            // Show a toast when the switch is toggled
+            String message = isChecked ? "Feature Enabled" : "Feature Disabled";
+            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+        });
+
+        // Simulating ProgressBar update
+        new Thread(() -> {
+            try {
+                for (int i = 0; i <= 100; i++) {
+                    // Simulate work being done in background
+                    Thread.sleep(50);
+                    progressBar.setProgress(i); // Update ProgressBar
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+    }
+}
+```
+<p align="center">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac4.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac4.1.jpg" width="200">
+</p>
+

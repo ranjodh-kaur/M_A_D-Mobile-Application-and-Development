@@ -664,8 +664,8 @@ public class SendMessageActivity extends AppCompatActivity {
 </RelativeLayout>
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/signup.jpg" width="200">
-<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/login.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/signup.jpg?raw=true" width="200">
+<img src="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/login.jpg?raw=true" width="200">
 </p>
 
 ### iv. Develop a program to implement table layout to display calculator.
@@ -869,7 +869,7 @@ public class SendMessageActivity extends AppCompatActivity {
 </LinearLayout>
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/a.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/a.jpg?raw=true" width="200">
 </p>
 
 
@@ -1025,7 +1025,7 @@ public class SendMessageActivity extends AppCompatActivity {
 </FrameLayout>
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.50.13_6bb6858e.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.50.13_6bb6858e.jpg?raw=true" width="200">
 </p>
 
 ### vi.Develop a program to implement UI from Buttons Palette use Constraint Layout i.e Button, ImageButton, TogggleButton, Checkbox, Chip, ChipGroup, Radio Button and Radio Group and FloatingActionButton.
@@ -1141,7 +1141,7 @@ public class SendMessageActivity extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.41.49_43dbd297.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/WhatsApp%20Image%202024-10-27%20at%2021.41.49_43dbd297.jpg?raw=true" width="200">
 </p>
 
 ### vii. Develop a program to implement UI from Widgets Palette use Relative Layout i.e Progress Bar, SeekBar , RatingBar and Switch.
@@ -1290,7 +1290,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 <p align="center">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac4.jpg" width="200">
-<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac4.1.jpg" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac4.jpg?raw=true" width="200">
+<img src ="https://github.com/natasha-dhingra/M_A_D-Mobile-Application-and-Development/blob/master/Batch%202021-2025/2203919/prac4.1.jpg?raw=true" width="200">
 </p>
 

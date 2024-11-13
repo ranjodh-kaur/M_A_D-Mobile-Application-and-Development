@@ -9,7 +9,7 @@ Here’s a simple guide to implementing and requesting permissions in Android:
 1. **Declare Permissions in the Manifest**: Specify the permissions you need in `AndroidManifest.xml`.
 2. **Check and Request Permissions at Runtime**: In your code, check if the permission is already granted. If not, request it from the user.
 3. **Handle the Permission Result**: Process the user's response in `onRequestPermissionsResult`.
-
+ 
 Let's create an example where the app requests access to the camera and location.
 
 ### Code Implementation
